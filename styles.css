@@ -1,0 +1,149 @@
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1b1b1b;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 15px;
+}
+
+h6 {
+  color: #C4AF78;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0 80px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.hero-section {
+  background: url('./chess-board-game.jpg') center bottom no-repeat;
+  background-size: cover;
+  color: #f5f5f5;
+  display: flex;
+}
+
+.hero-section .overlay {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.hero-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero-section h2 {
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #333;
+  color: #f5f5f5;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  border: 2px solid #333;
+}
+
+.cta-button i {
+  margin-right: 8px;
+}
+
+.cta-button:hover {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.stats-section,
+.about-section {
+  background-color: #f5f5f5;
+}
+
+.four-column-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-top: 2px solid #e6e6e6;
+  border-bottom: 5px solid #C4AF78;
+  margin: -80px 0 0 0;
+  position: relative;
+  background-color: #f5f5f5;
+}
+
+.four-column-bar .column {
+  text-align: center;
+  width: 23%;
+  border-right: 3px solid #ccc;
+}
+
+.four-column-bar .column:last-child {
+  border-right: none;
+}
+
+.four-column-bar h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.four-column-bar p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.footer-section {
+  background-color: #222;
+  color: #f5f5f5;
+  padding: 50px 0;
+  text-align: center;
+  height: 400px;
+  background: url('./chess-pieces.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.footer-section .container {
+  height: 80%;
+  align-content: center;
+}
+
+.footer-section .cta-button {
+  background: transparent;
+  border: 2px solid #f5f5f5;
+}
+
+.footer-section .cta-button:hover {
+  background-color: #f5f5f5;
+  color: #222;
+}
